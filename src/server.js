@@ -4,7 +4,7 @@ const app = express()
 const port = process.env.PORT || 8080
 
 function stopServer() {
-  console.log( 'stopping server...' )
+  console.log( 'stopping server....' )
   server.close(function (err) {
     if( err ) {
       console.error( err )
